@@ -1,6 +1,10 @@
 # esx_aceasync
 An ESX addon to easily sync ace groups with the ESX groups system.
 
+## Dependencies
+
+- ESX
+
 ## Why?
 I created this addon because my ESX server uses Kashacters and the ESX group systems would've required that I set each character's group individually to give perms. It only works for the normal ESX groups called `superadmin`, `admin`, `mod`, and `user`. It could be modified to work for others by following the existing formatting of the code.
 
