@@ -6,6 +6,7 @@ description 'This resource syncs permission groups from ace to ESX'
 version '1.1.0'
 
 server_scripts {
+    '@es_extended/imports.lua',
     'server/server.lua',
     'config.lua'
 }
